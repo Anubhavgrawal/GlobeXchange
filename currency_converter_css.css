@@ -1,0 +1,94 @@
+*{ 
+  margin: 0px; 
+  padding: 0px; 
+}
+ 
+body{ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background: #f4e4ba; 
+} 
+.container{ 
+  background:#fff; 
+  height: 70vh; 
+  width: 30vw; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-evenly; 
+  text-align: center; 
+  border-radius: 15px; 
+} 
+form{ 
+  height: 50vh; 
+  /* border: 3px solid black; */ 
+} 
+#heading{ 
+  font-size: 2.5vw; 
+  font-family:sans-serif; 
+} 
+
+ 
+.amount p { 
+  /* padding: 0 0 1vh 0; */ 
+  font-size: 2vw; 
+  font-family: sans-serif; 
+} 
+ 
+.amount #data { 
+  border: 0; 
+  text-align: center; 
+  text-decoration: underline; 
+  margin: 0.5vw; 
+  font-size: 1.5vw; 
+  outline: none; 
+} 
+ 
+.dropdown { 
+  /* width: ; */ 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+} 
+ 
+.dropdown .conversion { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 7vw; 
+  font-size: 1.5rem; 
+} 
+.from{ 
+/* border: 1px solid black; */ 
+padding: 0.9vw; 
+border-radius: 13px; 
+} 
+.to{ 
+/* border: 1px solid black; */ 
+padding: 0.7vw; 
+border-radius: 13px; 
+} 
+.dropdown.from p{ 
+font-size: 1.5vw; 
+} 
+.dropdown.to p{ 
+font-size: 1.5vw; 
+} 
+.msg{ 
+margin: 1vw 0 0 0; 
+font-size: 1.5vw; 
+font-weight: 300; 
+} 
+.submit{ 
+margin: 3vh 0 15vh 0; 
+height: 6vh; 
+width: 20vw; 
+font-size: 1.3vw; 
+border-radius: 8px; 
+border-width: 1px; 
+background-color: #af4d98; 
+color: #fff; 
+cursor: pointer; 
+
+} 
